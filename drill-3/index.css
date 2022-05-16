@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 60px;
+    background-color: lightgray;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.square {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(80, 120, 221);
+}
+
+article {
+    padding: 60px;
+}
+
+.blue {
+    height: 120px;
+    background-color: rgb(80, 120, 221);
+}
+
+.aqua {
+    height: 120px;
+    background-color: aquamarine;
+}
+
+.green {
+    height: 120px;
+    background-color: rgb(203, 242, 168);
+}
+
+.yellow {
+    height: 120px;
+    background-color: rgb(230, 215, 119);
+}
+
+.question-container {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
+button {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    border-radius: 50%;
+    font-size: 40px
+}
